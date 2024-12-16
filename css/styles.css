@@ -1,6 +1,15 @@
 
 
 
+/* .container {
+    max-width:
+        padding-left: 
+        padding-right: 
+        margin-left: 
+        margin-right:
+} */
+  
+
 
 
 body {
@@ -11,17 +20,39 @@ body {
 
 /* ====resetting default properties=== */
 ul, ol {
-   list-style-type: none;  
+   list-style-type: none; 
+   margin: 0; 
+   padding: 0;
 }
-
+h1, h2, h3, h4,h5, h6, p {
+    margin 0;
+    }
 a {
     text-decoration: none;
+}
+/* common */
+.conteiner {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 button {
     cursor: pointer;
 }
+/*  heder */
+.page-heder {
+    border-bottom: 1px solid E7E9FC;
+}
+.heder-container {
+    display: flex;
+    align-items: center;
+}
 
+.heder-nav {
+    display: flex;
+    align-items: center;
+}
 /* #region Heder */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -33,11 +64,24 @@ button {
         color: #4d5ae5;
 }
 
+
+.heder-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
 .heder-logo .logo-part {
     color: #2e2f42;
 }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -55,9 +99,16 @@ button {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
-
+.contacts-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -80,6 +131,7 @@ button {
 /* #region Hero */
 .main-page {
 background-color: #2e2f42;
+padding-bottom: 189px;
 }
 .main-page-title {
         font-weight: 700;
@@ -87,7 +139,13 @@ background-color: #2e2f42;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #fff;}
+        color: #fff;
+        padding-top:188px;
+        margin-bottom: 47px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
 
 .main-page-btn {
 font-weight: 500;
@@ -96,6 +154,11 @@ font-weight: 500;
     letter-spacing: 0.04em;
     color: #fff;
      background-color: #4d5ae5;
+     border-radius: 4px;
+     padding: 16px 32px;
+     display: block;
+     border: none;
+     margin: 0 auto;
 }
 .main-page-btn:hover,
 .main-page-btn:focus {
