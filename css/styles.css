@@ -27,17 +27,16 @@ ul, ol {
 h1, h2, h3, h4,h5, h6, p {
     margin: 0;
     }
+ 
 
-
-.visually-hidden {
+ .visually-hidden {
  position: absolute;
  width: 1px;
  height: 1px;
  margin: -1px;
  border: 0;
  padding: 0;
-    
- hite-space: nowrap;
+ white-space: nowrap;
  clip-path: inset(100%);
  clip: rect(0 0 0 0);
  overflow: hidden;
@@ -58,11 +57,12 @@ button {
 }
 /*  heder */
 .page-heder {
-    border-bottom: 1px solid E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 .heder-container {
     display: flex;
     align-items: center;
+    
 }
 
 .heder-nav {
@@ -147,7 +147,8 @@ button {
 /* #region Hero */
 .main-page {
 background-color: #2e2f42;
-padding-bottom: 189px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .main-page-title {
         font-weight: 700;
@@ -187,8 +188,8 @@ font-weight: 500;
 
 
 .our-benefits {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .benefits-list {
    display: flex;
@@ -295,15 +296,15 @@ font-weight: 500;
 /*  #region Our Portfolio */
 
 .our-portfolio {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio-title {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
-   etter-spacing: 0.02em;
+   letter-spacing: 0.02em;
    text-align: center;
    text-transform: capitalize;
    color: #2e2f42;
