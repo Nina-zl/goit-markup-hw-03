@@ -259,8 +259,8 @@ font-weight: 400;
 
  .img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
 } 
 
 .our-team-title {
@@ -282,7 +282,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px
 }
 
 .uor-time-position {
