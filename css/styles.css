@@ -312,7 +312,8 @@ font-weight: 500;
 
 .portfolio-case {
 display: flex;
-gap: 24px; 
+gap: 48px 24px; 
+flex-wrap: wrap;
 }
 
 
